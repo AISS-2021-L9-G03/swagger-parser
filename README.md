@@ -22,7 +22,7 @@
    
 ## Overview 
 
-This is the Swagger Parser project, which parses OpenAPI definitions in JSON or YAML format into [swagger-core](https://github.com/swagger-api/swagger-core) representation as [Java POJO](https://github.com/swagger-api/swagger-core/blob/master/modules/swagger-models/src/main/java/io/swagger/v3/oas/models/OpenAPI.java#L36), returning any validation warnings/errors.  
+This is the Swagger Parser project, which parses [OpenAPI](https://swagger.io/specification/) definitions in JSON or YAML format into [swagger-core](https://github.com/swagger-api/swagger-core) representation as [Java POJO](https://github.com/swagger-api/swagger-core/blob/master/modules/swagger-models/src/main/java/io/swagger/v3/oas/models/OpenAPI.java#L36), returning any validation warnings/errors.  
 
 It also provides a simple framework to add additional converters from different formats into the Swagger objects, making the entire toolchain available.
 
